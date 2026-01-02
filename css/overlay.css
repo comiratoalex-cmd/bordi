@@ -1,0 +1,30 @@
+:root{
+--c1:#00eaff;
+--c2:#00ffd5;
+--c3:#7a5cff;
+--c4:#0066ff;
+--glow:90px;
+--border:4px;
+--angle:90deg;
+}
+
+.overlay{
+position:absolute;
+inset:40px;
+border:var(--border) solid transparent;
+background:
+linear-gradient(#000,#000) padding-box,
+linear-gradient(var(--angle),var(--c1),var(--c2),var(--c3),var(--c4)) border-box;
+box-shadow:
+0 0 calc(var(--glow)*.6) var(--c2),
+0 0 calc(var(--glow)*1.5) var(--c3);
+}
+
+.rectangle{border-radius:18px}
+.square{
+aspect-ratio:1/1;
+width:500px;
+height:500px;
+margin:auto;
+border-radius:14px
+}

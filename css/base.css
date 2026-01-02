@@ -1,0 +1,7 @@
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#000;color:#fff;font-family:Arial;display:flex;height:100vh}
+.stage{flex:1;position:relative}
+.obs .panel{display:none}
+
+/* MODO SOMENTE OVERLAY VIA URL */
+.overlay-only .panel{display:none}
